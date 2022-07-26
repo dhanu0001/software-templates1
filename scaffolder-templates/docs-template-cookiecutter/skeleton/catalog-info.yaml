@@ -4,8 +4,7 @@ metadata:
   name: {{cookiecutter.name | jsonify}}
   description: {{cookiecutter.description | jsonify}}
   annotations:
-    github.com/project-slug: {{cookiecutter.destination.owner + "/" + cookiecutter.destination.repo}}
-    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: https://github.com/dhanu0001/software-templates1/blob/main/scaffolder-templates/docs-template-cookiecutter/skeleton/catalog-info.yaml
 spec:
   type: documentation
   lifecycle: experimental
